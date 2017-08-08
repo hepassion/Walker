@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		425297621E6E5C1C00843B68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 425297611E6E5C1C00843B68 /* main.m */; };
+		425297651E6E5C1C00843B68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 425297641E6E5C1C00843B68 /* AppDelegate.m */; };
+		425297681E6E5C1C00843B68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425297671E6E5C1C00843B68 /* ViewController.m */; };
+		4252976B1E6E5C1C00843B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425297691E6E5C1C00843B68 /* Main.storyboard */; };
+		4252976E1E6E5C1C00843B68 /* BannerStop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4252976C1E6E5C1C00843B68 /* BannerStop.xcdatamodeld */; };
+		425297701E6E5C1C00843B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4252976F1E6E5C1C00843B68 /* Assets.xcassets */; };
+		425297731E6E5C1C00843B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425297711E6E5C1C00843B68 /* LaunchScreen.storyboard */; };
+		4252977E1E6E5C1C00843B68 /* BannerStopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4252977D1E6E5C1C00843B68 /* BannerStopTests.m */; };
+		425297891E6E5C1C00843B68 /* BannerStopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425297881E6E5C1C00843B68 /* BannerStopUITests.m */; };
+		425297981E6E5CEF00843B68 /* MHScrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = 425297971E6E5CEF00843B68 /* MHScrollview.m */; };
+		4252979E1E6E843C00843B68 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4252979B1E6E843C00843B68 /* CycleScrollView.m */; };
+		4252979F1E6E843C00843B68 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4252979D1E6E843C00843B68 /* NSTimer+Addition.m */; };
+		42960DA41E7987E100B4D257 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42960DA31E7987E100B4D257 /* HomeKit.framework */; };
+		4A45383DA05192C48853CB77 /* libPods-BannerStop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 960950F9DDA9D63284E88C97 /* libPods-BannerStop.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4252977A1E6E5C1C00843B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 425297551E6E5C1C00843B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4252975C1E6E5C1C00843B68;
+			remoteInfo = BannerStop;
+		};
+		425297851E6E5C1C00843B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 425297551E6E5C1C00843B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4252975C1E6E5C1C00843B68;
+			remoteInfo = BannerStop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4252975D1E6E5C1C00843B68 /* BannerStop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerStop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		425297611E6E5C1C00843B68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		425297631E6E5C1C00843B68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		425297641E6E5C1C00843B68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		425297661E6E5C1C00843B68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		425297671E6E5C1C00843B68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4252976A1E6E5C1C00843B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4252976D1E6E5C1C00843B68 /* BannerStop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BannerStop.xcdatamodel; sourceTree = "<group>"; };
+		4252976F1E6E5C1C00843B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		425297721E6E5C1C00843B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		425297741E6E5C1C00843B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425297791E6E5C1C00843B68 /* BannerStopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BannerStopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4252977D1E6E5C1C00843B68 /* BannerStopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerStopTests.m; sourceTree = "<group>"; };
+		4252977F1E6E5C1C00843B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425297841E6E5C1C00843B68 /* BannerStopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BannerStopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		425297881E6E5C1C00843B68 /* BannerStopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerStopUITests.m; sourceTree = "<group>"; };
+		4252978A1E6E5C1C00843B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425297961E6E5CEF00843B68 /* MHScrollview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHScrollview.h; sourceTree = "<group>"; };
+		425297971E6E5CEF00843B68 /* MHScrollview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHScrollview.m; sourceTree = "<group>"; };
+		4252979A1E6E843C00843B68 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
+		4252979B1E6E843C00843B68 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		4252979C1E6E843C00843B68 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		4252979D1E6E843C00843B68 /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		42960DA21E7987E100B4D257 /* BannerStop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BannerStop.entitlements; sourceTree = "<group>"; };
+		42960DA31E7987E100B4D257 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		960950F9DDA9D63284E88C97 /* libPods-BannerStop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BannerStop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		981D2AAF4492FACC65B4EBB7 /* Pods-BannerStop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerStop.release.xcconfig"; path = "Pods/Target Support Files/Pods-BannerStop/Pods-BannerStop.release.xcconfig"; sourceTree = "<group>"; };
+		BF395623A8FF88C85D256739 /* Pods-BannerStop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerStop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BannerStop/Pods-BannerStop.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4252975A1E6E5C1C00843B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42960DA41E7987E100B4D257 /* HomeKit.framework in Frameworks */,
+				4A45383DA05192C48853CB77 /* libPods-BannerStop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425297761E6E5C1C00843B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425297811E6E5C1C00843B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		425297541E6E5C1C00843B68 = {
+			isa = PBXGroup;
+			children = (
+				4252975F1E6E5C1C00843B68 /* BannerStop */,
+				4252977C1E6E5C1C00843B68 /* BannerStopTests */,
+				425297871E6E5C1C00843B68 /* BannerStopUITests */,
+				4252975E1E6E5C1C00843B68 /* Products */,
+				F110DD3F3EC25EAFF497D8CA /* Pods */,
+				4B6EFFDA4AE3DA4780232529 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4252975E1E6E5C1C00843B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4252975D1E6E5C1C00843B68 /* BannerStop.app */,
+				425297791E6E5C1C00843B68 /* BannerStopTests.xctest */,
+				425297841E6E5C1C00843B68 /* BannerStopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4252975F1E6E5C1C00843B68 /* BannerStop */ = {
+			isa = PBXGroup;
+			children = (
+				42960DA21E7987E100B4D257 /* BannerStop.entitlements */,
+				425297991E6E843C00843B68 /* ScrollView封装 */,
+				425297631E6E5C1C00843B68 /* AppDelegate.h */,
+				425297641E6E5C1C00843B68 /* AppDelegate.m */,
+				425297661E6E5C1C00843B68 /* ViewController.h */,
+				425297671E6E5C1C00843B68 /* ViewController.m */,
+				425297961E6E5CEF00843B68 /* MHScrollview.h */,
+				425297971E6E5CEF00843B68 /* MHScrollview.m */,
+				425297691E6E5C1C00843B68 /* Main.storyboard */,
+				4252976F1E6E5C1C00843B68 /* Assets.xcassets */,
+				425297711E6E5C1C00843B68 /* LaunchScreen.storyboard */,
+				425297741E6E5C1C00843B68 /* Info.plist */,
+				4252976C1E6E5C1C00843B68 /* BannerStop.xcdatamodeld */,
+				425297601E6E5C1C00843B68 /* Supporting Files */,
+			);
+			path = BannerStop;
+			sourceTree = "<group>";
+		};
+		425297601E6E5C1C00843B68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				425297611E6E5C1C00843B68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4252977C1E6E5C1C00843B68 /* BannerStopTests */ = {
+			isa = PBXGroup;
+			children = (
+				4252977D1E6E5C1C00843B68 /* BannerStopTests.m */,
+				4252977F1E6E5C1C00843B68 /* Info.plist */,
+			);
+			path = BannerStopTests;
+			sourceTree = "<group>";
+		};
+		425297871E6E5C1C00843B68 /* BannerStopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				425297881E6E5C1C00843B68 /* BannerStopUITests.m */,
+				4252978A1E6E5C1C00843B68 /* Info.plist */,
+			);
+			path = BannerStopUITests;
+			sourceTree = "<group>";
+		};
+		425297991E6E843C00843B68 /* ScrollView封装 */ = {
+			isa = PBXGroup;
+			children = (
+				4252979A1E6E843C00843B68 /* CycleScrollView.h */,
+				4252979B1E6E843C00843B68 /* CycleScrollView.m */,
+				4252979C1E6E843C00843B68 /* NSTimer+Addition.h */,
+				4252979D1E6E843C00843B68 /* NSTimer+Addition.m */,
+			);
+			path = "ScrollView封装";
+			sourceTree = "<group>";
+		};
+		4B6EFFDA4AE3DA4780232529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42960DA31E7987E100B4D257 /* HomeKit.framework */,
+				960950F9DDA9D63284E88C97 /* libPods-BannerStop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F110DD3F3EC25EAFF497D8CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF395623A8FF88C85D256739 /* Pods-BannerStop.debug.xcconfig */,
+				981D2AAF4492FACC65B4EBB7 /* Pods-BannerStop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4252975C1E6E5C1C00843B68 /* BannerStop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4252978D1E6E5C1C00843B68 /* Build configuration list for PBXNativeTarget "BannerStop" */;
+			buildPhases = (
+				B55A2831C2AEC8659DBE2C06 /* [CP] Check Pods Manifest.lock */,
+				425297591E6E5C1C00843B68 /* Sources */,
+				4252975A1E6E5C1C00843B68 /* Frameworks */,
+				4252975B1E6E5C1C00843B68 /* Resources */,
+				4D2AEB0D983E82B4081C031F /* [CP] Embed Pods Frameworks */,
+				DA1CD21508BB88AB912948ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BannerStop;
+			productName = BannerStop;
+			productReference = 4252975D1E6E5C1C00843B68 /* BannerStop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		425297781E6E5C1C00843B68 /* BannerStopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425297901E6E5C1C00843B68 /* Build configuration list for PBXNativeTarget "BannerStopTests" */;
+			buildPhases = (
+				425297751E6E5C1C00843B68 /* Sources */,
+				425297761E6E5C1C00843B68 /* Frameworks */,
+				425297771E6E5C1C00843B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4252977B1E6E5C1C00843B68 /* PBXTargetDependency */,
+			);
+			name = BannerStopTests;
+			productName = BannerStopTests;
+			productReference = 425297791E6E5C1C00843B68 /* BannerStopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		425297831E6E5C1C00843B68 /* BannerStopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425297931E6E5C1C00843B68 /* Build configuration list for PBXNativeTarget "BannerStopUITests" */;
+			buildPhases = (
+				425297801E6E5C1C00843B68 /* Sources */,
+				425297811E6E5C1C00843B68 /* Frameworks */,
+				425297821E6E5C1C00843B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				425297861E6E5C1C00843B68 /* PBXTargetDependency */,
+			);
+			name = BannerStopUITests;
+			productName = BannerStopUITests;
+			productReference = 425297841E6E5C1C00843B68 /* BannerStopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		425297551E6E5C1C00843B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = C;
+				TargetAttributes = {
+					4252975C1E6E5C1C00843B68 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = W38KLRQP4B;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+					425297781E6E5C1C00843B68 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4252975C1E6E5C1C00843B68;
+					};
+					425297831E6E5C1C00843B68 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4252975C1E6E5C1C00843B68;
+					};
+				};
+			};
+			buildConfigurationList = 425297581E6E5C1C00843B68 /* Build configuration list for PBXProject "BannerStop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 425297541E6E5C1C00843B68;
+			productRefGroup = 4252975E1E6E5C1C00843B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4252975C1E6E5C1C00843B68 /* BannerStop */,
+				425297781E6E5C1C00843B68 /* BannerStopTests */,
+				425297831E6E5C1C00843B68 /* BannerStopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4252975B1E6E5C1C00843B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425297731E6E5C1C00843B68 /* LaunchScreen.storyboard in Resources */,
+				425297701E6E5C1C00843B68 /* Assets.xcassets in Resources */,
+				4252976B1E6E5C1C00843B68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425297771E6E5C1C00843B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425297821E6E5C1C00843B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D2AEB0D983E82B4081C031F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BannerStop/Pods-BannerStop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B55A2831C2AEC8659DBE2C06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1CD21508BB88AB912948ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BannerStop/Pods-BannerStop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		425297591E6E5C1C00843B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4252979E1E6E843C00843B68 /* CycleScrollView.m in Sources */,
+				425297681E6E5C1C00843B68 /* ViewController.m in Sources */,
+				425297651E6E5C1C00843B68 /* AppDelegate.m in Sources */,
+				425297621E6E5C1C00843B68 /* main.m in Sources */,
+				4252976E1E6E5C1C00843B68 /* BannerStop.xcdatamodeld in Sources */,
+				425297981E6E5CEF00843B68 /* MHScrollview.m in Sources */,
+				4252979F1E6E843C00843B68 /* NSTimer+Addition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425297751E6E5C1C00843B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4252977E1E6E5C1C00843B68 /* BannerStopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425297801E6E5C1C00843B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425297891E6E5C1C00843B68 /* BannerStopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4252977B1E6E5C1C00843B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4252975C1E6E5C1C00843B68 /* BannerStop */;
+			targetProxy = 4252977A1E6E5C1C00843B68 /* PBXContainerItemProxy */;
+		};
+		425297861E6E5C1C00843B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4252975C1E6E5C1C00843B68 /* BannerStop */;
+			targetProxy = 425297851E6E5C1C00843B68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		425297691E6E5C1C00843B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4252976A1E6E5C1C00843B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		425297711E6E5C1C00843B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425297721E6E5C1C00843B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4252978B1E6E5C1C00843B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4252978C1E6E5C1C00843B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4252978E1E6E5C1C00843B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF395623A8FF88C85D256739 /* Pods-BannerStop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BannerStop/BannerStop.entitlements;
+				DEVELOPMENT_TEAM = W38KLRQP4B;
+				INFOPLIST_FILE = BannerStop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.BannerStop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4252978F1E6E5C1C00843B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981D2AAF4492FACC65B4EBB7 /* Pods-BannerStop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BannerStop/BannerStop.entitlements;
+				DEVELOPMENT_TEAM = W38KLRQP4B;
+				INFOPLIST_FILE = BannerStop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.BannerStop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		425297911E6E5C1C00843B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BannerStopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.BannerStopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BannerStop.app/BannerStop";
+			};
+			name = Debug;
+		};
+		425297921E6E5C1C00843B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BannerStopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.BannerStopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BannerStop.app/BannerStop";
+			};
+			name = Release;
+		};
+		425297941E6E5C1C00843B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BannerStopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.BannerStopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BannerStop;
+			};
+			name = Debug;
+		};
+		425297951E6E5C1C00843B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BannerStopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hhh.BannerStopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BannerStop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		425297581E6E5C1C00843B68 /* Build configuration list for PBXProject "BannerStop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4252978B1E6E5C1C00843B68 /* Debug */,
+				4252978C1E6E5C1C00843B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4252978D1E6E5C1C00843B68 /* Build configuration list for PBXNativeTarget "BannerStop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4252978E1E6E5C1C00843B68 /* Debug */,
+				4252978F1E6E5C1C00843B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		425297901E6E5C1C00843B68 /* Build configuration list for PBXNativeTarget "BannerStopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425297911E6E5C1C00843B68 /* Debug */,
+				425297921E6E5C1C00843B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		425297931E6E5C1C00843B68 /* Build configuration list for PBXNativeTarget "BannerStopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425297941E6E5C1C00843B68 /* Debug */,
+				425297951E6E5C1C00843B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4252976C1E6E5C1C00843B68 /* BannerStop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4252976D1E6E5C1C00843B68 /* BannerStop.xcdatamodel */,
+			);
+			currentVersion = 4252976D1E6E5C1C00843B68 /* BannerStop.xcdatamodel */;
+			path = BannerStop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 425297551E6E5C1C00843B68 /* Project object */;
+}
