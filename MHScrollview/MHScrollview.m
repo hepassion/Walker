@@ -19,7 +19,6 @@
 @property (nonatomic,strong)   UIImageView *rightImage;
 @property (nonatomic,assign)   NSInteger currentIndex;
 @property (nonatomic, strong)  NSTimer *timer;
-@property (nonatomic, strong) dispatch_source_t gcdTimer;
 
 
 @end
