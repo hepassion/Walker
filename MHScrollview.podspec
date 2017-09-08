@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   s.source_files  = "MHScrollview", "MHScrollview/**/*.{h,m}"
   s.requires_arc = true
   s.dependency 'SDWebImage', '~> 4.0.0'
-  echo "3.0" > .swift-version
 
 
 
