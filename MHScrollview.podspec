@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MHScrollview"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "明鹤scrollview"
   s.homepage     = "https://github.com/hepassion/Walker"
   s.license      = "MIT"
